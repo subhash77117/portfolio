@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    
+}
+/* banner-section----------- */
+.container1{
+    max-width: 100%;
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 10px;
+}
+/* nevigation section----------- */
+.container{
+    max-width: 1300px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.left h1{
+    color: rgb(139, 14, 14);
+}
+.left a{
+    gap: 50px;
+    margin: 30px;
+    text-decoration: none;
+    width: 100px;
+    height: 5vh;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.left a:hover{
+    color: coral;
+}
+.left{
+    text-align: center;
+}
+#btn{
+    width: 100px;
+    height: 5vh;
+    background-color: rgba(28, 156, 28, 0.345);
+    border-radius: 10px;
+    font-size: 16px;
+}
+#btn:hover{
+    background-color: whitesmoke;
+    color: blue;
+    border: 1px dotted rgb(41, 5, 185);
+}
+/*    ------------about section--------------- */
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* background-color: rgba(255, 0, 0, 0.281); */
+    width: 100%;
+    height: 80vh;
+    box-shadow: 6px 7px 7px gray;
+}
+.imgmintu img{
+    width: 400px;
+    border-radius: 100px;
+}
+.about-right{
+    margin-top: 150px;
+}
+.about-right p{
+    font-size: 20px;
+    color: blue;
+}
+#parared{
+    color: red;
+}
+#btn2{
+    width: 130px;
+    height: 5vh;
+    background-color: rgba(255, 0, 0, 0.26);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.left a{
+    color: black;
+}
+#btn2:hover{
+    background-color: whitesmoke;
+    border:1px dotted blue;
+}
+.about-left img{
+    margin-top: 60px;
+
+}
+.about-right h1{
+    color: chocolate;
+}
+/* -services section--------------- */
+
+.services{
+    display: flex;
+    justify-content: space-around;
+}
+.heads-ing h1{
+    text-align: center;
+    color: chocolate;
+}
+.myservices{
+    background-color: rgba(45, 40, 40, 0.377);
+    box-shadow: 5px 6px 7px gray;
+    height: 100vh;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 50px 0px;
+}
+.left-services img{
+    width: 600px;
+    border-radius: 40px;
+    margin-top: 100px;
+}
+.right-services{
+    margin-top: 200px;
+}
+.right-services h1{
+    color: red;
+}
+.right-services p{
+    color: green;
+    font-size: 18px;
+}
+.font-services{
+    margin-top: 50px;
+}
+
+.web a{
+   text-decoration: none;
+}
+.web button{
+    width: 100px;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: rgb(127, 204, 12);
+    margin-left: 20px;
+}
+.web button:hover{
+    background-color: rgb(21, 182, 166);
+    border: 1px dotted blue;
+}
+.webi a{
+    
+    text-decoration: none;
+    
+}
+.webi button{
+    width: 100px;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: rgb(12, 204, 34);
+    margin-left: 20px;
+}
+.webi button:hover{
+    background-color: rgb(167, 115, 19);
+    border: 1px dotted blue;
+}
+
+/* --------------education-section------------ */
+
+.section-education{
+    width: 100%;
+    height: 100vh;
+    box-shadow: 5px 6px 5px grey;
+    border-radius: 50 0pxpx;
+    margin-top: 50px;
+}
+.edu-head{
+    text-align: center;
+    color: coral;
+}
+.education{
+    border-radius: 30px;
+    width: 600px;
+    margin: 15px;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+.education p{
+    margin: 20px;
+    font-size: 17px;
+    color: rgb(42, 3, 98);
+}
+.education h2{
+    color: blue;
+    font-size: 18px;
+}
+.education-section{
+    display: flex;
+    
+
+}
+#courses{
+    color: black;
+}
+.education button{
+    width: 100px;
+    height: 5vh;
+    background-color: rgb(244, 245, 241);
+    border-radius: 10px;
+    margin: 20px;
+}
+.education button:hover{
+    background-color: yellowgreen;
+    border-radius: 1px dotted blue;
+}
+.one:hover{
+    background-color: rgba(144, 238, 144, 0.232);
+}
+.two:hover{
+    background-color: rgba(216, 112, 147, 0.238);
+}
+.three:hover{
+    background-color: rgba(153, 205, 50, 0.196);
+}
+.four:hover{
+    background-color: rgba(0, 0, 255, 0.121);
+}
+
+/* weapen -section-------------------- */
+
+.weapean-section{
+    width: 100%;
+    height: 100vh;
+    /* background-color: pink; */
+    margin-top: 50px;
+}
+
+.favourit-tools{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 5px 6px 4px grey;
+    border-radius: 40px;
+    flex-wrap: wrap;
+}
+.tools-like h1{
+    text-align: center;
+    color: coral;
+}
+.weapen-left{
+    margin-top:230px;
+}
+.weapen-left p{
+    color: blue;
+    font-size: 18px;
+}
+.weapen-left a{
+    color: red;
+}
+.sec-img img{
+    width: 250px;
+
+}
+.weapen-left h1{
+    color: chocolate;
+}
+
+
+/* work sectoin-------------------- */
+.work-section{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    margin-top: 100px;
+}
+.my-work-section{
+    border: 2px solid red;
+    margin: 10px;
+}
+.my-work-section h1 p{
+    margin-top: 50px;
+}
+/* work-section---------------- */
+
+.process{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(37, 19, 19, 0.068);
+    margin-top: 100px;
+    box-shadow: 5px 6px 5px gray;
+    border-radius: 50px;
+}
+.experiance h1{
+    color: chocolate;
+}
+.experiance p{
+    font-size: 18px;
+}
+
+
+.my-services{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+
+.ideas{
+    width: 400px;
+    height: 400px;
+    background-color: pink;
+    border-radius: 40px;
+    
+}
+.headideas{
+    margin: 20px;
+}
+.threeee button{
+    width: 100px;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.threeee h1 {
+    margin: 50px;
+}
+.twooo button{
+    width: 100px;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.twooo h1 {
+    margin: 50px;
+}
+.oneee button{
+    width: 100px;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.oneee button:hover{
+    background-color: lightgray;
+    border: 1px dotted blue;
+}
+.twooo button:hover{
+    background-color: lightgray;
+    border: 1px dotted  blue;
+}
+.threeee button:hover{
+    background-color: lightgray;
+    border: 1px dotted blue;
+}
+.oneee h1 {
+    margin: 50px;
+    
+}
+#paraideas{
+    margin: 20px;
+}
+.oneee {
+    background-color: red;
+}
+.twooo {
+    background-color: rgb(4, 46, 161);
+    
+}
+.threeee {
+    background-color: rgb(4, 201, 14);
+}
